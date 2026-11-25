@@ -1,0 +1,218 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#D58CFC">
+  <meta name="description" content="Uma surpresa especial de aniversário para Duda.">
+  <title>Feliz aniversário, Duda! 💜</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <div class="background-glow"></div>
+  <div class="floating-hearts" aria-hidden="true">♡ ✦ ♡ ✧ ♡</div>
+
+  <!-- TELA INICIAL -->
+  <section id="inicio" class="inicio">
+    <div class="inicio-card">
+      <span class="estrela">✦</span>
+      <p class="subtitulo">UMA SURPRESA ESPECIAL</p>
+
+      <h1>Oi, Duda! 💜</h1>
+
+      <p class="pergunta">
+        Preparada para uma surpresa?
+      </p>
+
+      <div class="botoes">
+        <button id="btnSim" class="btn btn-sim">
+          SIM!
+        </button>
+
+        <button id="btnNao" class="btn btn-nao">
+          NÃO
+        </button>
+      </div>
+    </div>
+  </section>
+
+  <!-- MODAL -->
+  <div id="modal" class="modal" aria-hidden="true">
+    <div class="modal-card">
+      <span class="modal-icone">💜</span>
+
+      <h2 id="modalTexto">
+        Ainda bem, você não tinha escolha mesmo 😌
+      </h2>
+
+      <button id="btnContinuar" class="btn btn-sim">
+        CONTINUAR
+      </button>
+    </div>
+  </div>
+
+  <!-- CONTEÚDO PRINCIPAL -->
+  <main id="conteudo" class="conteudo escondido">
+
+    <!-- ABERTURA -->
+    <header class="cabecalho">
+      <span class="mini-texto">UM DIA MUITO ESPECIAL</span>
+
+      <h1>
+        Feliz aniversário,<br>
+        <span>Duda!</span>
+      </h1>
+
+      <p>Hoje é dia de celebrar você! ✨</p>
+
+      <div class="decoracao">♡ ✦ ♡</div>
+
+      <div class="indicador">
+        <span>Uma surpresa feita com carinho</span>
+        <span class="seta">↓</span>
+      </div>
+    </header>
+
+    <!-- MENSAGEM -->
+    <section class="secao revelar">
+      <span class="etiqueta">COM CARINHO</span>
+
+      <h2>Uma mensagem para você</h2>
+
+      <div class="mensagem-card">
+        <div class="aspas">“</div>
+
+        <p id="textoHomenagem">
+Duda, chegou seu dia.
+
+17 anos, e mesmo com “pouco tempo” de amizade, parece que somos amigos desde que nascemos, afinal, você é a azia suprema né, os poucos neurônios que temos se encaixam kkkk.
+
+Quero que você saiba, mais do que já sabe, que pode contar sempre comigo para todas as coisas de sua vida. Saiba que estarei sempre ao seu lado pra te apoiar e te proteger, para vibrar com as suas conquistas como se fossem minhas e pra te xingar e brigar com você quando for necessário.
+
+Você é mais que uma amiga pra mim, é uma irmã, e desejo que nossa amizade seja eterna, até porque em dois anos já temos tantas histórias pra contar, imagina quando nós juntarmos daqui uns anos pra contar as próximas histórias pras pessoas kkkkk.
+
+Enfim Duda, mais uma vez queria te desejar um feliz aniversário. Que seu dia seja muito feliz e abençoado por Deus e Nossa Senhora.
+
+Te amo muito, irmãzinha! 🤍
+
+Atenciosamente,
+
+Brunão Latrel Aziatico.
+        </p>
+
+        <div class="assinatura">Com carinho, Brunão 🤍</div>
+      </div>
+    </section>
+
+    <!-- FOTOS -->
+    <section class="secao revelar">
+      <span class="etiqueta">NOSSAS LEMBRANÇAS</span>
+
+      <h2>Momentos especiais</h2>
+
+      <p class="descricao">
+        Algumas lembranças de uma amizade cheia de histórias.
+      </p>
+
+      <div class="fotos">
+        <figure class="foto-card">
+          <img src="img/foto1.jpg" alt="Primeira lembrança especial" loading="lazy">
+          <figcaption>Uma lembrança para guardar 🤍</figcaption>
+        </figure>
+
+        <figure class="foto-card">
+          <img src="img/foto2.jpg" alt="Segunda lembrança especial" loading="lazy">
+          <figcaption>Mais uma das nossas histórias ✨</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <!-- VÍDEOS -->
+    <section class="secao revelar">
+      <span class="etiqueta">MOMENTOS INESQUECÍVEIS</span>
+
+      <h2>Porque história é o que não falta...</h2>
+
+      <p class="descricao">
+        E que venham muitos outros momentos!
+      </p>
+
+      <div class="videos">
+
+        <video class="video-item" controls playsinline preload="metadata">
+          <source src="video/video1.mp4" type="video/mp4">
+          Seu navegador não suporta vídeos.
+        </video>
+
+        <video class="video-item" controls playsinline preload="metadata">
+          <source src="video/video2.mp4" type="video/mp4">
+          Seu navegador não suporta vídeos.
+        </video>
+
+        <video class="video-item" controls playsinline preload="metadata">
+          <source src="video/video3.mp4" type="video/mp4">
+          Seu navegador não suporta vídeos.
+        </video>
+
+        <video class="video-item" controls playsinline preload="metadata">
+          <source src="video/video4.mp4" type="video/mp4">
+          Seu navegador não suporta vídeos.
+        </video>
+
+        <video class="video-item" controls playsinline preload="metadata">
+          <source src="video/video5.mp4" type="video/mp4">
+          Seu navegador não suporta vídeos.
+        </video>
+
+      </div>
+    </section>
+
+    <!-- FINAL -->
+    <footer class="final revelar">
+      <div class="final-coracao">💜</div>
+
+      <span class="etiqueta">UM NOVO CICLO</span>
+
+      <h2>Que venham muitas outras histórias!</h2>
+
+      <p>
+        Que Deus e Nossa Senhora abençoem sempre sua vida.
+      </p>
+
+      <div class="final-nome">
+        Feliz aniversário, Duda!
+      </div>
+
+      <span class="final-assinatura">
+        Brunão Latrel Aziatico.
+      </span>
+
+      <div class="decoracao-final">♡ ✦ ♡</div>
+    </footer>
+
+  </main>
+
+  <!-- PLAYER -->
+  <div id="player" class="player escondido">
+
+    <button id="anterior" aria-label="Música anterior">⏮</button>
+
+    <button id="playPause" aria-label="Reproduzir ou pausar">▶</button>
+
+    <button id="proxima" aria-label="Próxima música">⏭</button>
+
+    <div class="player-info">
+      <strong id="nomeMusica">Still Loving You</strong>
+      <span id="artistaMusica">Scorpions</span>
+    </div>
+
+  </div>
+
+  <audio id="audioPlayer" preload="none"></audio>
+
+  <script src="script.js"></script>
+</body>
+</html>
